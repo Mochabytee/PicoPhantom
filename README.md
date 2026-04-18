@@ -216,14 +216,14 @@ nc -lvnp 4444
 
 ## 📸 Evidence
 
-> Screenshots from live lab execution:
-> - Payload executing autonomously on Ubuntu
-> - Kali listener catching the reverse shell connection
-> - `whoami`, `hostname`, `id` confirming remote access
-> - `/etc/shadow` accessed from Kali shell
-> - Persistence confirmed across multiple reboots
+### Remote Shell Established on Kali
+![whoami hostname id](pict1.png)
 
-*(Screenshots folder — see /docs/screenshots)*
+### /etc/shadow Accessed Remotely
+![shadow file](pict2.png)
+
+### Persistence Verified — Crontab & Backdoor Script
+![crontab and syscheck](pict3.png)
 
 ---
 
